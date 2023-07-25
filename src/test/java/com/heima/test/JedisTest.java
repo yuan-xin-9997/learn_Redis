@@ -14,8 +14,8 @@ public class JedisTest {
     @BeforeEach
     void setUp(){
         // 1.建立连接
-//        jedis = new Jedis("47.102.156.240", 6379);
-        jedis = JedisConnectionFactory.getJedis();
+        jedis = new Jedis("47.102.156.240", 6379);
+        // jedis = JedisConnectionFactory.getJedis();
 
         // 2. 设置密码
         jedis.auth("yuanxin");
