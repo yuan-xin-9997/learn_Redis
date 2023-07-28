@@ -1,4 +1,4 @@
-package com.heima.test;
+package java.com.heima.test;
 import com.heima.jedis.util.JedisConnectionFactory;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
